@@ -8,7 +8,7 @@ from time import sleep
      schedule="@daily", 
      catchup=False)
 
-def primeira_dag_com_python_operator():
+def segundo_teste():
     """
     minha primeira Pipipeline
     """
@@ -36,4 +36,4 @@ def primeira_dag_com_python_operator():
 
     t1 >> t2 >> t3
 
-primeira_dag_com_python_operator()
+segundo_teste()
